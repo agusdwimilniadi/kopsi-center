@@ -1,0 +1,111 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+.color-primary-cstm {
+  color: #0b4f6c !important;
+}
+.color-secondary-cstm li span {
+  color: #01baef !important;
+}
+.navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  font-size: 105%;
+  color: #0b4f6c;
+}
+#header-wrap.fixed-header .navbar-collapse .nav-item .nav-link {
+  color: black;
+}
+#header-wrap.fixed-header .navbar-collapse .nav-item .btn {
+  background-color: #1b75bb;
+  color: white;
+}
+.btn-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  color: black;
+}
+.bg-custom-primary {
+  background-color: #01baef !important;
+}
+
+.btn-custom {
+  border-radius: 60px !important;
+  padding: 7px 25px;
+  background-color: #0b4f6c;
+  border: 1px solid #0b4f6c;
+}
+.btn-custom2 {
+  border-radius: 60px !important;
+  padding: 7px 25px;
+  background-color: transparent;
+  border: 1px solid #0b4f6c;
+  white-space: nowrap;
+}
+
+#header-wrap.fixed-header .navbar-collapse .nav-item .btn {
+  border: 1px solid transparent;
+}
+#header-wrap.fixed-header .navbar-collapse .nav-item .btn.btn-custom {
+  background-color: #0b4f6c;
+}
+
+#header-wrap.fixed-header .navbar-collapse .nav-item .btn.btn-custom2 {
+  background-color: transparent;
+  color: #0b4f6c;
+  border: 1px solid #0b4f6c;
+}
+#header-wrap.fixed-header .navbar-collapse .nav-item .btn.btn-custom:hover {
+  background-color: transparent;
+  border: 1px solid #0b4f6c;
+  color: #0b4f6c;
+}
+#header-wrap.fixed-header .navbar-collapse .nav-item .btn.btn-custom2:hover {
+  background-color: #0b4f6c;
+  color: white !important;
+}
+.display-10 {
+  font-size: 40px;
+  color: #0b4f6c !important;
+}
+.display-11 {
+  color: #0b4f6c;
+}
+.size-card {
+  height: 550px;
+  background-color: #f7f7f7;
+  border-radius: 25px !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0b4f6c;
+}
+.btn-primary-cstm {
+  background-color: #f79c0b;
+  color: white;
+}
+.card-ipa:hover {
+  background-color: #d5e68d;
+  transition: 0.5s;
+}
+.card-iptr:hover {
+  background-color: #ccf1ff;
+  transition: 0.5s;
+}
+.card-ips:hover {
+  background-color: #ffe74c;
+  transition: 0.5s;
+}
+@media (max-width: 575.98px) {
+  .display-10 {
+    font-size: 28px;
+  }
+}
+
+.stepper.stepper-pills.stepper-column .stepper-nav {
+  flex-direction: row !important;
+}
+
+.stepper.stepper-pills .stepper-item {
+  flex-direction: column !important;
+}
